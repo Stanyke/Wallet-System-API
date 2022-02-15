@@ -1,0 +1,40 @@
+{
+  "name": "user-wallet-system-api",
+  "version": "1.0.0",
+  "description": "This is a nodejs application (api) with expressjs and mySQL (for storage) thats used to manage user wallet system",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --exit",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanyke/Simple-User-Api.git"
+  },
+  "keywords": [
+    "storage",
+    "user",
+    "list"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^1.0.3",
+    "mocha": "^9.2.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.12"
+  },
+  "author": "Stanley Chibuike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stanyke/Simple-User-Api/issues"
+  },
+  "homepage": "https://github.com/Stanyke/Simple-User-Api#readme"
+}
